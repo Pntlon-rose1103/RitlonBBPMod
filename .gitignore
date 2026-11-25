@@ -1,0 +1,22 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.csproj.user
+
+# ゲーム本体・他Modの DLL（再配布しない。参照用にローカルへ置く）
+Assembly-CSharp*.dll
+UnityEngine*.dll
+MTM101BaldAPI.dll
+PlusLevelStudio*.dll
+PlusStudioLevel*.dll
+0Harmony.dll
+BepInEx.dll
+Unity.*.dll
+Mono.*.dll
+netstandard.dll
+
+# 配布用成果物（Release で配る）
+*.zip
