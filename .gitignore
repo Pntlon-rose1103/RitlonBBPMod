@@ -20,3 +20,9 @@ netstandard.dll
 
 # 配布用成果物（Release で配る）
 *.zip
+
+# 署名用の秘密鍵・証明書（絶対にアップロードしない）
+*.pfx
+*.snk
+*.p12
+*.key
