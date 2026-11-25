@@ -10,8 +10,9 @@ Baldi's Basics Plus（v0.14.x）向けの Mod です。NPC・アイテムの追�
 
 ## ビルド
 1. Visual Studio でプロジェクトを開く
-2. ゲームの `Managed` フォルダ、BepInEx、MTM101BaldAPI などの DLL を参照に追加する（リポジトリには含めていません）
-3. ビルドした DLL を `BepInEx/plugins` に置く
+2. 参照 DLL（Assembly-CSharp、UnityEngine 系、0Harmony、BepInEx、MTM101BaldAPI）の HintPath が、作者の Steam インストール先を指しています。自分の環境のパスに直してください（DLL はリポジトリに含めていません）
+3. 署名用の `RitlonBiten.pfx` は非公開です。ファイルがない環境では署名なしでビルドされます
+4. ビルドした DLL を `BepInEx/plugins` に置く
 
 ## 配布
 GameBanana にて公開予定。バージョンごとの変更点は `CHANGELOG.md` を参照してください。
