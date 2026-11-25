@@ -16,4 +16,4 @@ Baldi's Basics Plus（v0.14.x）向けの Mod です。NPC・アイテムの追�
 4. ビルドした DLL を `BepInEx/plugins` に置く
 
 ## 配布
-GameBanana にて公開予定。バージョンごとの変更点は `CHANGELOG.md` を参照してください。
+GameBanana にて公開予定。バージョンごとの変更点は `;CHANGELOG.md` を参照してください。
