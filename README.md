@@ -6,6 +6,7 @@ Baldi's Basics Plus（v0.14.x）向けの Mod です。NPC・アイテムの追�
 - Baldi's Basics Plus v0.14.x（Unity 2020.3.49）
 - BepInEx 5.4.21
 - MTM101BaldAPI 11.3.0.0
+- Newtonsoft.Json.dll — MTM101BaldAPI のダウンロードに自動的に付いてくるため、別途入手する必要はありません
 - （任意）Plus Level Studio / Level Loader — 入っていればエディタに Mod のNPC・アイテムが追加されます。なくても動作します
 
 ## ビルド
